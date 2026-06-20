@@ -9,68 +9,73 @@ var teamMembers = [
     name:   "Sumit Tiwari",
     role:   "Full Stack Developer",
     skills: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/tiwarisumitmanoj",
+    github: "https://github.com/sumittiwari1302",
     avatar: "https://api.dicebear.com/7.x/initials/svg?seed=ST&backgroundColor=2c7a4b&fontFamily=Arial&fontSize=40&fontWeight=700"
   },
   {
-    name:   "Priya Sharma",
+    name:   "Khushi Shah",
     role:   "UI/UX Designer",
     skills: ["CSS", "Figma", "HTML"],
-    github: "https://github.com",
-    avatar: "https://api.dicebear.com/7.x/initials/svg?seed=PS&backgroundColor=5c8dc4&fontFamily=Arial&fontSize=40&fontWeight=700"
+    github: "https://github.com/shahkhushi0307",
+    avatar: "https://api.dicebear.com/7.x/initials/svg?seed=KS&backgroundColor=e91e8c&fontFamily=Arial&fontSize=40&fontWeight=700"
   },
   {
-    name:   "Rahul Verma",
+    name:   "Rudra",
     role:   "Frontend Developer",
     skills: ["JavaScript", "HTML", "CSS"],
-    github: "https://github.com",
-    avatar: "https://api.dicebear.com/7.x/initials/svg?seed=RV&backgroundColor=e07b3a&fontFamily=Arial&fontSize=40&fontWeight=700"
+    github: "https://github.com/rudraabhishek-collab",
+    avatar: "https://api.dicebear.com/7.x/initials/svg?seed=RA&backgroundColor=e07b3a&fontFamily=Arial&fontSize=40&fontWeight=700"
   },
   {
-    name:   "Anjali Singh",
+    name:   "Abhishek Yadav",
     role:   "API Integration",
     skills: ["fetch()", "JSON", "Async"],
-    github: "https://github.com",
-    avatar: "https://api.dicebear.com/7.x/initials/svg?seed=AS&backgroundColor=8e44ad&fontFamily=Arial&fontSize=40&fontWeight=700"
+    github: "https://github.com/abhishekydvtech65",
+    avatar: "https://api.dicebear.com/7.x/initials/svg?seed=AY&backgroundColor=4a7fc1&fontFamily=Arial&fontSize=40&fontWeight=700"
   }
 ];
 
 /* ── PROJECTS DATA ── */
 var projects = [
   {
-    name:  "Interactive Quiz App",
-    desc:  "Dynamic quiz with multiple categories, score tracking, timer, and result summary built with DOM manipulation.",
-    image: "https://placehold.co/600x360/4a9d6f/ffffff?text=Quiz+App",
-    badge: "JavaScript",
-    link:  "#"
-  },
-  {
     name:  "Expense Tracker",
     desc:  "Track income and expenses with localStorage persistence, category filters, and live balance calculation.",
-    image: "https://placehold.co/600x360/5b9fbf/ffffff?text=Expense+Tracker",
+    image: "https://api.microlink.io/?url=https%3A%2F%2Fojt-capstone-projects.github.io%2Fexpense-tracker%2F&screenshot=true&meta=false&embed=screenshot.url",
+    fallback: "https://placehold.co/600x360/5b9fbf/ffffff?text=Expense+Tracker",
     badge: "CRUD App",
-    link:  "#"
+    link:  "https://ojt-capstone-projects.github.io/expense-tracker/"
   },
   {
     name:  "Live News Feed",
     desc:  "Real-time news aggregator using NewsAPI with category filtering, search, and responsive card layout.",
-    image: "https://placehold.co/600x360/7b6fa0/ffffff?text=Live+News+Feed",
+    image: "https://api.microlink.io/?url=https%3A%2F%2Fojt-capstone-projects.github.io%2FLive-News-Feed%2F&screenshot=true&meta=false&embed=screenshot.url",
+    fallback: "https://placehold.co/600x360/7b6fa0/ffffff?text=Live+News+Feed",
     badge: "API Project",
     link:  "https://ojt-capstone-projects.github.io/Live-News-Feed/"
   },
   {
-    name:  "GitHub Developer Explorer",
-    desc:  "Search any GitHub username to explore their profile, repositories, and language breakdown.",
-    image: "https://placehold.co/600x360/3d5a73/ffffff?text=GitHub+Explorer",
-    badge: "API Project",
-    link:  "#"
+    name:  "Kanban Task Board",
+    desc:  "Task management board with To Do, In Progress, and Done columns using localStorage persistence.",
+    image: "https://api.microlink.io/?url=https%3A%2F%2Fojt-capstone-projects.github.io%2FKanban--Task-board%2F&screenshot=true&meta=false&embed=screenshot.url",
+    fallback: "https://placehold.co/600x360/6aab8e/ffffff?text=Kanban+Board",
+    badge: "DOM App",
+    link:  "https://ojt-capstone-projects.github.io/Kanban--Task-board/"
   },
   {
-    name:  "Kanban Board",
-    desc:  "Task management board with To Do, In Progress, and Done columns using localStorage persistence.",
-    image: "https://placehold.co/600x360/6aab8e/ffffff?text=Kanban+Board",
-    badge: "DOM App",
-    link:  "#"
+    name:  "Interactive Quiz App",
+    desc:  "Dynamic quiz with multiple categories, score tracking, timer, and result summary built with DOM manipulation.",
+    image: "https://api.microlink.io/?url=https%3A%2F%2Fojt-capstone-projects.github.io%2FInteractive-quiz-app%2F&screenshot=true&meta=false&embed=screenshot.url",
+    fallback: "https://placehold.co/600x360/4a9d6f/ffffff?text=Quiz+App",
+    badge: "JavaScript",
+    link:  "https://ojt-capstone-projects.github.io/Interactive-quiz-app/"
+  },
+  {
+    name:  "GitHub Developer Explorer",
+    desc:  "Search any GitHub username to explore their profile, repositories, and language breakdown.",
+    image: "https://api.microlink.io/?url=https%3A%2F%2Fojt-capstone-projects.github.io%2FGithub-developer-explorer%2F&screenshot=true&meta=false&embed=screenshot.url",
+    fallback: "https://placehold.co/600x360/3d5a73/ffffff?text=GitHub+Explorer",
+    badge: "API Project",
+    link:  "https://ojt-capstone-projects.github.io/Github-developer-explorer/"
   }
 ];
 
@@ -110,7 +115,7 @@ var skills = [
   },
   {
     name: "GitHub",
-    svg: "<svg viewBox=\"0 0 24 24\"><path fill=\"#24292f\" d=\"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12\"/></svg>"
+    svg: "<svg viewBox=\"0 0 24 24\" class=\"github-svg\"><path class=\"github-path\" d=\"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12\"/></svg>"
   },
   {
     name: "Flexbox",
@@ -158,7 +163,7 @@ function renderProjects() {
     card.classList.add("project-card");
     card.innerHTML =
       "<div class=\"proj-img\">" +
-        "<img src=\"" + project.image + "\" alt=\"" + project.name + "\" />" +
+        "<img src=\"" + project.image + "\" alt=\"" + project.name + "\" loading=\"lazy\" />" +
         "<span class=\"proj-badge\">" + project.badge + "</span>" +
       "</div>" +
       "<div class=\"proj-body\">" +
@@ -168,6 +173,13 @@ function renderProjects() {
           "<button class=\"btn-view\" data-link=\"" + project.link + "\">View Project</button>" +
         "</div>" +
       "</div>";
+
+    /* Fallback if screenshot API fails to load */
+    var img = card.querySelector("img");
+    img.addEventListener("error", function() {
+      img.src = project.fallback;
+    });
+
     projectsGrid.appendChild(card);
   });
   var btns = projectsGrid.querySelectorAll(".btn-view");
