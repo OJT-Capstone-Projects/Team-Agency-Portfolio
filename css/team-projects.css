@@ -279,3 +279,18 @@ button{cursor:pointer;border:none;outline:none}
   .sec-inner     { padding: 40px 14px; }
   .header-inner  { padding: 12px 16px; }
 }
+
+/* ── GitHub SVG — adaptive fill ── */
+/* Light mode: dark fill */
+.github-svg .github-path { fill: #24292f; }
+/* Dark mode: white fill */
+body.dark-theme .github-svg .github-path { fill: #e2e8f0; }
+
+/* Project card image skeleton while screenshot loads */
+.proj-img img {
+  background: #e4e8ec;
+  min-height: 190px;
+}
+body.dark-theme .proj-img img {
+  background: #1f2937;
+}
